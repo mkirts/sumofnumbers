@@ -24,7 +24,7 @@ console.log(sumWhile(testNum));
 
 function sumRecursion(num) {
   if (num.length === 0) {
-    return true;
+    return 0;
   }
   return num[0] + sumRecursion(num.slice(1, num.length));
 }
@@ -36,3 +36,5 @@ function sumTheSimpleWay(num) {
 }
 
 console.log(sumTheSimpleWay(testNum));
+// eslint-disable-next-line max-len
+/* Attempt 1: 30 minutes - DNF: While I finished the code on time, I spent a bulk of the time attempting to get the console to run, but with no avail. Ultimately, however, the code DOES compile properly. */
